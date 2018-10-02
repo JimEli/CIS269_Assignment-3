@@ -13,11 +13,11 @@
 * functions (only) include:
 *   back()      // Returns element at tail of list.
 *   empty()     // Returns true if list is empty.
-*	add()       // Adds new node to tail of list.
-*	clear()     // Clears list of all elements.
+*   add()       // Adds new node to tail of list.
+*   clear()     // Clears list of all elements.
 *   find()      // find element.
 *   remove()    // Remove element from list.
-*	operator<<  // Overloaded << operator prints list contents.
+*   operator<<  // Overloaded << operator prints list contents.
 *   iterator incorporates only needed functionality for the demo.
 *
 * Notes:
@@ -164,7 +164,7 @@ namespace myList
 		// Walk list looking for node match.
 		do {
 			if (node->element == e)
-				return node;       // Found it!
+				return node; // Found it!
 
 			node = node->next;
 		
