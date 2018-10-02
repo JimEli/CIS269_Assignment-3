@@ -1,6 +1,6 @@
 # Pima CC CIS269 
 ## Assignment #3
-### Singly=Linked List
+### Singly-Linked List
 
 Class Driver Program. Tests our singly-linked list.
 
